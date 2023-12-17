@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height:100%;
+    width:100%;
+}
+body{
+    background:url(https://images.unsplash.com/photo-1578185708140-55c94bb9426f?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+   
+}
+.card{
+    height: 400px;
+    width: 350px;
+    
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+
+    position: relative;
+}
+.in-heart{
+    position: absolute;
+    top: 43%;
+    left: 43%;
+    font-size: 48px;
+    
+    color: #fff;
+    transform: translate(-50%,-50%), scale(0.8);
+    opacity: 0;
+}
+
+.card img{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 15px;
+    
+}
+.icon-container{
+    display: flex;
+    font-size: 28px;
+    margin-top: 0.8rem;
+    gap: 20px;
+    align-content: center;
+    
+}
+.icon-container i{
+    cursor: pointer;
+    
+}
+.icon-container img{
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    margin-left: 150px;
+}
