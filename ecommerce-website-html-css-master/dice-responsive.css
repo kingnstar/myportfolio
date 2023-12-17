@@ -1,0 +1,51 @@
+@media (max-width:520px) {
+    .dice img{
+        height: 100px;
+    }
+    button{
+        background-color:#00f7ff;
+        height: 50px;
+        width: 140px;
+        margin-top: 5%;
+        border-radius: 12px;
+        font-weight: 500;
+        cursor: pointer;
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    .head{
+        position: relative;
+        left:22vw;
+    }
+    
+}
+@media (min-width:371px) and (max-width:494px){
+    .head{
+        position: relative;
+        left:28vw;
+    }
+}
+@media (min-width:212px) and (max-width:370px){
+    .head{
+        position: relative;
+        left:34vw;
+    }
+}
+@media (max-width:770px) and (min-width:521px) {
+    button{
+        background-color:#00f7ff;
+        height: 50px;
+        width: 140px;
+        margin-top: 5%;
+        border-radius: 12px;
+        font-weight: 500;
+        cursor: pointer;
+        font-size: 12px;
+        padding: 0 10px;
+    }
+    .heading h1{
+        text-align: center;
+        
+    }
+    
+}

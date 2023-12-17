@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.567);
+    color: #fff;
+}
+.heading{
+    font-size: 25px;
+    text-align: center;
+    padding: 40px 0 0 0 ;
+    letter-spacing: 12px;
+}
+.contentbox{
+    margin-top:8%;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.dice{
+    
+    border-radius: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 100px;
+    
+}
+.dice img{
+    height: 150px;
+}
+.dicebox h3{
+    margin-left:40px ;
+    margin-bottom: 40px;
+}
+button{
+    background-color:#ff9f00;
+    height: 100px;
+    width: 100px;
+    margin-top: 5%;
+    border-radius: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
